@@ -1,0 +1,17 @@
+{
+  "name": "tiro",
+  "owner": {
+    "name": "The Plato (aka Tiro)",
+    "email": "support@tiro.ooo"
+  },
+  "metadata": {
+    "description": "Search and read your Tiro meeting notes, transcripts, and company wiki from Cursor and Grok Bot."
+  },
+  "plugins": [
+    {
+      "name": "tiro",
+      "source": "plugins/tiro",
+      "description": "Search and read your Tiro meeting notes, transcripts, and company wiki, and rename notes or organize folders. Ask what was decided, who owns an action item, or what a customer said, and get answers with links back to the source note."
+    }
+  ]
+}

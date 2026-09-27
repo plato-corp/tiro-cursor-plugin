@@ -1,0 +1,27 @@
+{
+  "name": "tiro",
+  "displayName": "Tiro",
+  "version": "0.1.0",
+  "description": "Search and read your Tiro meeting notes, transcripts, and company wiki, and rename notes or organize folders. Ask what was decided, who owns an action item, or what a customer said, and get answers with links back to the source note.",
+  "author": {
+    "name": "The Plato (aka Tiro)",
+    "email": "support@tiro.ooo"
+  },
+  "homepage": "https://tiro.ooo",
+  "repository": "https://github.com/plato-corp/tiro-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "tiro",
+    "mcp",
+    "meetings",
+    "meeting notes",
+    "transcripts",
+    "action items",
+    "wiki",
+    "notetaker"
+  ],
+  "category": "productivity",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
