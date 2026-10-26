@@ -21,9 +21,14 @@ Tiro is the meeting notetaker for teams that work in more than one language. It 
 
 ## Setup
 
-1. Install **Tiro** from the Marketplace. Node.js 18+ is required (the plugin runs `npx mcp-remote`).
-2. The first time a Tiro tool runs, a browser window opens. Sign in with the same account you use in the Tiro app and approve access.
-3. That's it. No API key or admin setup is required.
+1. Open [Tiro in Cursor Directory](https://cursor.directory/plugins/tiro). Under **MCP Servers**, choose **Add to Cursor** and approve adding the **Tiro** server in Cursor. Node.js 18+ is required.
+2. Enable **Tiro** in Cursor. The first time a Tiro tool runs, a browser window opens. Sign in with the same account you use in the Tiro app.
+3. Choose your permissions, check **Long-lived access**, then click **Allow selected access**. The checkbox is required before the button becomes available.
+4. Return to Cursor and confirm that the Tiro tools are available. No API key or admin setup is required.
+
+The connection uses a separate OAuth registration for the Tiro MCP resource so it does not reuse an older registration with outdated permissions. If an existing connection fails, disable the old `server` or `tiro` entry before adding **Tiro** again. Keep Node.js available to Cursor; this plugin runs the tested `mcp-remote@0.15.2` bridge.
+
+The Directory button adds the MCP connection. The `catch-up` and `pull` skills are included with the full plugin in this repository.
 
 Any Tiro plan can connect. Don't have an account yet? Sign up at [tiro.ooo](https://tiro.ooo).
 

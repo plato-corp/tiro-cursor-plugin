@@ -1,8 +1,16 @@
 {
   "mcpServers": {
-    "tiro": {
+    "Tiro": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.tiro.ooo/mcp"]
+      "args": [
+        "-y",
+        "mcp-remote@0.15.2",
+        "https://mcp.tiro.ooo/mcp",
+        "--resource",
+        "https://mcp.tiro.ooo/mcp",
+        "--static-oauth-client-metadata",
+        "{\"client_name\":\"Tiro\",\"client_uri\":\"https://tiro.ooo\",\"logo_uri\":\"https://tiro.ooo/images/tiro-app-icon.png\"}"
+      ]
     }
   }
 }
