@@ -1,7 +1,7 @@
 {
   "name": "tiro",
   "displayName": "Tiro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Search and read your Tiro meeting notes, transcripts, and company wiki, and rename notes or organize folders. Ask what was decided, who owns an action item, or what a customer said, and get answers with links back to the source note.",
   "author": {
     "name": "The Plato (aka Tiro)",
